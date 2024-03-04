@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+  height:100vh;
+  width:100vw;
+  background-image: url('https://images.unsplash.com/photo-1541922633525-b39c46b1b219?q=80&w=1898&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: relative;
+}
+.overlay{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 60%;
+  position: absolute;
+
+}
+.navbar{
+  height:10vh;
+  width: 100vw;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 7rem;
+  position: absolute;
+  /* top:0; */
+}
+.navbar h3{
+  font-family: "Kaushan Script", cursive;
+  color: white;
+}
+.navbar ul .menu-items {
+  text-decoration: none;
+  color:#ffffff9c;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+}
+.navbar a:focus{
+  color: white;
+}
+.navbar .menu-items:hover{
+  color: white;
+}
+.navbar li{
+  display: inline-block;
+  list-style-type: none;
+  padding-inline:8px;
+}
+
+.hero{
+  position: absolute;
+  top:40%;
+  left:50%;
+  transform: translate(-50%,-40%);
+  color:whitesmoke;
+  text-align: center;
+  /* display: flex;
+  flex-direction: column; */
+
+}
+.hero .subheading{
+  font-family: "Lato", sans-serif;
+  font-size:14px;
+  color:#ffffffd5;
+  border-top:1px solid white;
+  border-bottom:1px solid white;
+  display: inline-block;
+  margin-bottom:20px;
+}
+.hero .hero-heading{
+  font-family: "Kaushan Script", cursive;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.hero .book-btn{
+  margin-top:20px;
+  padding:10px 15px;
+  border-radius:30px;
+  border: none;
+  background-color: orangered;
+  color:white;
+  cursor: pointer;
+  font-weight: 600;
+}
+.book-btn:hover{
+  background-color: #cd5428;
+}
+.footer{
+  font-family: "Lato", sans-serif;
+  height:10vh;
+  width: 84vw;
+  background-color: orangered;
+  position: absolute;
+  bottom: 0;
+  margin-inline:8vw;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left:20px ;
+}
+.select{
+  width:15%;
+  color:white;
+  border: 1px solid white;
+  background-color: orangered;
+  padding:10px;
+  font-size: 14px;
+}
+.textarea{
+  display: flex;
+  align-items: center;
+  gap:20px;
+  color:white;
+  font-size: 14px;
+}
+.footer div textarea{
+  color:white;
+  border: 1px solid white;
+  background-color: orangered;
+  padding:3.5px;
+}
+.check-availabilty{
+  width:10vw;
+  height:10vh;
+  background-color: #2e2c2c;
+  color: white;
+  text-transform: uppercase;
+  padding-left:6px;
+  padding-top:15px;
+  font-size: 14px;
+  font-weight: 600;
+}
